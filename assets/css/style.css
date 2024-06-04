@@ -234,7 +234,7 @@ body {
   background-color: var(--space-cadet);
   height: 65px;
   box-shadow: var(--shadow);
-  overflow: hidden;
+  /* overflow: hidden; */
   transition: 0.25s var(--cubic-out);
   z-index: 4;
 }
@@ -1065,3 +1065,43 @@ textarea.contact-input {
   width: 100%;
   height: 100%;
 }
+
+/* dropdown */
+
+.drp-dn{
+  position: relative;
+}
+
+
+
+
+
+.drp-dn-item{
+  width: 80%;
+  position: absolute;
+  right: 10%;
+  top: 110%;
+  background-color: #ffff;
+  color: black;
+  border-radius: 5px;
+  opacity: 0;
+}
+
+.drp-dn:hover .drp-dn-item{
+  opacity: 1;
+}
+
+.drp-dn-item li{
+  margin: 4px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+.drp-dn-item li:nth-child(1){
+  border-top: none;
+}
+
+.drp-dn-item li:hover{
+  cursor: pointer;
+}
+
