@@ -1056,3 +1056,12 @@ textarea.contact-input {
   .footer-list { margin-inline: 0; }
 
 }
+
+
+
+/* diet */
+
+#diet-tips img{
+  width: 100%;
+  height: 100%;
+}
